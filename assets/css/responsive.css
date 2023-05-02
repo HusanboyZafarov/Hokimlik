@@ -1,0 +1,127 @@
+@media screen and (max-width: 1200px) {
+    :root {
+        --color-blue: #08376C;
+        --color-light-blue: #8ed8f6;
+        --color-red: #E13F3F;
+        --color-white: #FFFFFF;
+        --color-dark-gray: #4A4A4A;
+        --color-gray: #dee1e7;
+        --color-dark: #191919;
+
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+}
