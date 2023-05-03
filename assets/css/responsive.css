@@ -130,6 +130,14 @@
         --size-heading-large: 37px;
         --size-heading-small: 27px;
     }
+
+    .nav_sidebar {
+        display: none;
+    }
+
+    .cat_list {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -295,6 +303,35 @@
 
     .footer_socials {
         margin-top: 20px;
+    }
+
+    .cat_item {
+        flex-direction: column;
+        padding: 5% 0;
+    }
+
+    .cat_item img {
+        width: 100%;
+    }
+
+    .cat_info_wrapper {
+        margin-left: 0;
+    }
+
+    .wrapper_sidebar_section {
+        padding-top: 5%;
+    }
+
+    .cat_pagination_list {
+        margin-top: 5%;
+    }
+
+    .news {
+        padding-top: 8%;
+    }
+
+    .wrapper_title {
+        margin-bottom: 1px;
     }
 }
 
