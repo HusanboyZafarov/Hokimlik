@@ -42,6 +42,31 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    :root {
+        --size-text: 18px;
+        --size-text-large: 24px;
+        --size-text-small: 16px;
+
+        --size-heading: 32px;
+        --size-heading-large: 38px;
+        --size-heading-small: 28px;
+    }
+
+    .header_settings {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .header_settings form {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 900px) {
     :root {
         --size-text: 18px;
@@ -72,56 +97,82 @@
         --size-text-large: 24px;
         --size-text-small: 16px;
 
-        --size-heading: 32px;
-        --size-heading-large: 38px;
-        --size-heading-small: 28px;
+        --size-heading: 31px;
+        --size-heading-large: 37px;
+        --size-heading-small: 27px;
     }
 }
 
 @media screen and (max-width: 600px) {
     :root {
         --size-text: 18px;
-        --size-text-large: 24px;
+        --size-text-large: 22px;
         --size-text-small: 16px;
 
-        --size-heading: 32px;
-        --size-heading-large: 38px;
-        --size-heading-small: 28px;
+        --size-heading: 30px;
+        --size-heading-large: 36px;
+        --size-heading-small: 26px;
     }
 }
 
 @media screen and (max-width: 500px) {
     :root {
         --size-text: 18px;
-        --size-text-large: 24px;
+        --size-text-large: 20px;
         --size-text-small: 16px;
 
-        --size-heading: 32px;
-        --size-heading-large: 38px;
-        --size-heading-small: 28px;
+        --size-heading: 29px;
+        --size-heading-large: 35px;
+        --size-heading-small: 25px;
+    }
+
+    .header_navigation_item {
+        width: 100%;
+    }
+
+    .header_navigation_list {
+        overflow-y: hidden;
+        max-height: 0;
+    }
+
+    .header_navigation_item span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_burger {
+        display: inline-block;
+    }
+
+    .header_navigation_links_wrapper a {
+        width: 100%;
+    }
+
+    .header_navigation_links_wrapper {
+        position: static;
     }
 }
 
 @media screen and (max-width: 400px) {
     :root {
         --size-text: 18px;
-        --size-text-large: 24px;
+        --size-text-large: 20px;
         --size-text-small: 16px;
 
-        --size-heading: 32px;
-        --size-heading-large: 38px;
-        --size-heading-small: 28px;
+        --size-heading: 28px;
+        --size-heading-large: 34px;
+        --size-heading-small: 24px;
     }
 }
 
 @media screen and (max-width: 300px) {
     :root {
         --size-text: 18px;
-        --size-text-large: 24px;
+        --size-text-large: 19px;
         --size-text-small: 16px;
 
-        --size-heading: 32px;
-        --size-heading-large: 38px;
-        --size-heading-small: 28px;
+        --size-heading: 26px;
+        --size-heading-large: 32px;
+        --size-heading-small: 22px;
     }
 }
