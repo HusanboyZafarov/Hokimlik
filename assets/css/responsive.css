@@ -89,6 +89,14 @@
         --size-heading-large: 38px;
         --size-heading-small: 28px;
     }
+
+    .main-hero_side_bar_slider {
+        display: none;
+    }
+
+    .main-hero_post_wrapper {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 700px) {
