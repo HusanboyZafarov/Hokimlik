@@ -13,6 +13,16 @@
     src: url('../font/Roboto-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Zona B';
+    src: url('../font/ZonaPro-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Zona T';
+    src: url('../font/ZonaPro-Thin.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +39,7 @@
     --color-primary: #08376C;
     --color-light-blue: #8ed8f6;
     --color-red: #E13F3F;
+    --color-yellow: #8c6a0d;
     --color-white: #FFFFFF;
     --color-dark-gray: #4A4A4A;
     --color-gray: #dee1e7;
@@ -214,13 +225,12 @@
     display: flex;
 }
 
-.header_navigation_item span {
+.header_navigation_name {
     padding: 14px 24px;
     font-size: var(--size-text);
     box-shadow: 0px 2px 20px #00000020;
     background: var(--color-white);
     color: var(--color-dark);
-    font-family: 'Roboto M';
     border: none;
     cursor: pointer;
     border-radius: 6px;
@@ -637,4 +647,85 @@ footer {
 
 .footer_socials a {
     margin: 0 10px;
+}
+
+.site_map-links {
+    margin-top: 20px;
+}
+
+.site_map-links a {
+    color: var(--color-primary);
+}
+
+.site_map-links a:hover {
+    text-decoration: underline;
+}
+
+.site_map-current_link i {
+    margin: 5px 0;
+}
+
+.site_map-current_link {
+    color: var(--color-yellow);
+}
+
+.site_map-links_list {
+    margin-top: 20px;
+}
+
+.site_map-links_item {
+    margin-left: 20px;
+}
+
+.site_map-inner_link {
+    margin-left: 20px;
+}
+
+.site_map-head_link {
+    color: var(--color-yellow);
+    font-family: 'Zona T';
+    position: relative;
+}
+
+.site_map-head_link::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: var(--color-dark);
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+.site_map-links_list a:hover {
+    text-decoration: underline;
+}
+
+.site_map-inner_link a {
+    color: var(--color-yellow);
+    margin: 5px 0;
+    font-family: 'Zona T';
+    position: relative;
+}
+
+.site_map-inner_link a::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border: 1px solid var(--color-dark);
+    border-radius: 5px;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+}
+
+.site_map-heading {
+    margin-top: 30px;
+    font-size: var(--size-heading-small);
+    font-family: 'Zona B';
 }
