@@ -582,6 +582,7 @@
 
 .news_item {
     width: 24%;
+    margin-top: 5%;
 }
 
 .news_item img {
@@ -957,12 +958,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
     flex-wrap: wrap;
 }
 
 .detail-more_info_item {
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 .detail-more_info_item span {
@@ -1034,4 +1034,220 @@ footer {
 
 .detail-more_info_item.view i {
     margin-right: 5px;
+}
+
+.detail_post-heading {
+    margin-bottom: 20px;
+}
+
+.detail_post-text_info {
+    margin: 14px 0;
+}
+
+.detail_post-text_info {
+    color: var(--color-dark);
+}
+
+.detail_post-text_info b {
+    font-family: 'Roboto M';
+    font-weight: normal;
+    color: var(--color-dark);
+}
+
+.detail_post-text_info a {
+    color: var(--color-primary);
+}
+
+.detail_post-text_info a:hover {
+    text-decoration: underline;
+}
+
+.detail_post-img_wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: var(--size-text);
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+}
+
+.contact-form input::placeholder,
+.contact-form select::placeholder {
+    color: var(--color-primary);
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: var(--size-text);
+    margin: 10px 0;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary);
+    background: var(--color-white);
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    transform: scale(0.9);
+    color: var(--color-white);
+    background: var(--color-primary);
+}
+
+.contact-number_wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    padding: 12px 18px;
+    border-radius: 10px;
+}
+
+.contact-number_wrapper input {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: none;
+}
+
+.contact-number_wrapper label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.headers_item {
+    margin-top: 5%;
+    display: flex;
+    align-items: start;
+}
+
+.headers_item img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.headers_info_wrapper {
+    margin-left: 20px;
+}
+
+.headers_detail_link {
+    font-size: var(--size-text-large);
+    color: var(--color-dark);
+    font-family: 'Roboto M';
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.headers_detail_link:hover {
+    text-decoration: underline;
+}
+
+.headers-mayor_fullname {
+    margin: 20px 0 10px 0;
+    font-size: var(--size-text-large);
+    font-family: 'Roboto B';
+    font-weight: normal;
+    color: var(--color-primary);
+}
+
+.headers-info {
+    margin: 10px 0;
+}
+
+.headers-info {
+    color: var(--color-dark);
+}
+
+.headers-info b {
+    font-weight: normal;
+    font-family: 'Roboto M';
+}
+
+.headers-info a {
+    color: var(--color-primary);
+}
+
+.headers-info a:hover {
+    text-decoration: underline;
+}
+
+.headers-contact_link {
+    padding: 10px 20px;
+    background: var(--color-primary);
+    border-radius: 30px;
+    font-size: var(--size-text-small);
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--color-white) !important;
+}
+
+.headers-contact_link:hover {
+    text-decoration: none !important;
+    transform: scale(0.9);
+    background: var(--color-gray);
+    color: var(--color-primary) !important;
+}
+
+.detailer_body b {
+    font-family: 'Roboto M';
+    font-weight: normal;
+}
+
+.detailer_body a {
+    color: var(--color-primary);
+}
+
+.detailer_body h1,
+.detailer_body h2,
+.detailer_body h3,
+.detailer_body h4,
+.detailer_body h5,
+.detailer_body h6 {
+    font-family: 'Roboto B';
+    font-weight: normal;
+}
+
+.detailer_body h1 {
+    font-size: var(--size-heading);
+}
+
+.detailer_body h2 {
+    font-size: var(--size-heading-small);
+}
+
+.detailer_body h3 {
+    font-size: var(--size-text-large);
+}
+
+.detailer_body h4 {
+    font-size: var(--size-text);
+}
+
+.detailer_body h5 {
+    font-size: var(--size-text-small);
+}
+
+.detailer_body u {
+    text-decoration: underline !important;
+}
+
+.detailer_body del,
+.detailer_body strike {
+    text-decoration: line-through !important;
+}
+
+.detailer_body a:hover {
+    text-decoration: underline;
 }

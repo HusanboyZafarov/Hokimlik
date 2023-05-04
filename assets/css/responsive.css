@@ -151,6 +151,15 @@
     .detail_reg-item.info {
         margin-left: 0;
     }
+
+    .headers_item {
+        flex-direction: column;
+    }
+
+    .headers_info_wrapper {
+        margin-top: 5%;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -363,6 +372,10 @@
     .header_search_wrapper button {
         height: 44px;
     }
+
+    .headers-mayor_fullname {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -378,6 +391,10 @@
 
     .header_search_wrapper button {
         height: 43px;
+    }
+
+    .headers_item img {
+        width: 100%;
     }
 }
 
