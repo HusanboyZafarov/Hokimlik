@@ -3,12 +3,10 @@ let hero_action_item = document.querySelectorAll(".main-hero_action_item")
 
 let closer = document.querySelector(".closer")
 hero_action_item.forEach((element) => {
-    element.addEventListener("click", () => {
+    element.addEventListener("mouseenter", () => {
         inner_el = element.lastElementChild
         closer.classList.add("active")
         inner_el_first = element.firstElementChild
-        console.log(inner_el_first);
-
         let hero_action_posts = document.querySelectorAll(".main-hero_action_posts")
         inner_el_first = element.firstElementChild
         if (inner_el.getBoundingClientRect().height) {
@@ -33,7 +31,26 @@ hero_action_item.forEach((element) => {
                 inner_el.style.display = "flex"
                 inner_el.style.maxHeight = inner_el.scrollHeight + "px"
                 inner_el_first.classList.add("active")
-            }, 300)
+            }, 400)
+        }
+    })
+
+    element.addEventListener("mouseleave", () => {
+        inner_el = element.lastElementChild
+        closer.classList.add("active")
+        inner_el_first = element.firstElementChild
+
+        let hero_action_posts = document.querySelectorAll(".main-hero_action_posts")
+        inner_el_first = element.firstElementChild
+        if (inner_el.getBoundingClientRect().height) {
+            inner_el.style.maxHeight = null
+            inner_el.style.maxHeight = `0px`
+            inner_el.style.marginTop = `0px`
+            let hero_action_item = document.querySelectorAll(".main-hero_action_item span")
+            hero_action_item.forEach(element => {
+                element.classList.remove("active")
+            });
+            closer.classList.remove("active")
         }
     })
 });
