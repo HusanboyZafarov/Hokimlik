@@ -682,8 +682,8 @@ footer {
 }
 
 .site_map-head_link {
-    color: var(--color-yellow);
-    font-family: 'Zona T';
+    color: var(--color-primary);
+    font-family: 'Roboto M';
     position: relative;
 }
 
@@ -705,9 +705,9 @@ footer {
 }
 
 .site_map-inner_link a {
-    color: var(--color-yellow);
+    color: var(--color-primary);
     margin: 5px 0;
-    font-family: 'Zona T';
+    font-family: 'Roboto R';
     position: relative;
 }
 
@@ -951,4 +951,87 @@ footer {
 
 .detail_reg-img_wrapper img {
     width: 70%;
+}
+
+.detail-more_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.detail-more_info_item {
+    margin-top: 10px;
+}
+
+.detail-more_info_item span {
+    color: var(--color-primary);
+    font-size: var(--size-text-small);
+}
+
+.detail-share_icon {
+    min-height: 40px;
+    min-width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: var(--color-white);
+}
+
+.detail-more_info_item {
+    display: flex;
+    align-items: center;
+}
+
+.detail-more_info_item.share a:hover {
+    text-decoration: none;
+}
+
+.detail-more_info_item a {
+    display: flex;
+    align-items: center;
+}
+
+.detail-more_info_item a:hover {
+    text-decoration: underline;
+}
+
+.detail-more_info_item.download a {
+    color: var(--color-primary);
+    font-size: var(--size-text-small);
+}
+
+.detail-more_info_item.download span {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.detail-share_icon.twitter {
+    background: #1DA1F2;
+}
+
+.detail-share_icon:hover {
+    transform: scale(0.9);
+}
+
+.detail-share_icon.facebook {
+    background: #4267B2;
+}
+
+.detail-share_icon.telegram {
+    background: #2AABEE;
+}
+
+.detail-more_info_item.view {
+    padding: 10px;
+    border-radius: 40px;
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.detail-more_info_item.view i {
+    margin-right: 5px;
 }

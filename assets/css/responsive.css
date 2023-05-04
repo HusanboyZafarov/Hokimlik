@@ -359,6 +359,10 @@
     .detail_reg-item.info {
         margin-top: 5%;
     }
+
+    .header_search_wrapper button {
+        height: 44px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -370,6 +374,10 @@
         --size-heading: 28px;
         --size-heading-large: 34px;
         --size-heading-small: 24px;
+    }
+
+    .header_search_wrapper button {
+        height: 43px;
     }
 }
 
@@ -386,5 +394,9 @@
 
     .header_search_wrapper {
         width: 100%;
+    }
+
+    .header_search_wrapper button {
+        height: 42px;
     }
 }
