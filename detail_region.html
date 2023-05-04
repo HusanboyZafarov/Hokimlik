@@ -224,7 +224,135 @@
     <main>
         <div class="detail_reg-hero">
             <div class="section-wrapp">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="wrapper_sidebar_section main" id="main-content">
+                        <div class="nav_sidebar sidebar" id="sidebar">
+                            <ul class="nav_link_list">
+                                <li class="nav_link_item active">
+                                    <a href="#">
+                                        Shahar va tumanlar
+                                    </a>
+                                </li>
+                                <li class="nav_link_item">
+                                    <a href="#">
+                                        Angren shahar
+                                    </a>
+                                </li>
+                                <li class="nav_link_item">
+                                    <a href="#">
+                                        Angren shahar
+                                    </a>
+                                </li>
+                                <li class="nav_link_item">
+                                    <a href="#">
+                                        Angren shahar
+                                    </a>
+                                </li>
+                                <li class="nav_link_item">
+                                    <a href="#">
+                                        Angren shahar
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="detail_reg content" id="content">
+                            <li data-aos="fade-up">
+                                <div class="links">
+                                    <span class="link">
+                                        <a href="#">Bosh sahifa</a>
+                                    </span>
+                                    <span class="link currently">
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevrons-right"></i> Shahar va tumanlar
+                                        </a>
+                                    </span>
+                                    <span class="link currently">
+                                        <i class="fa-regular fa-chevrons-right"></i> Bekobod tumani
+                                    </span>
+                                </div>
+
+                                <form action="">
+                                    <select class="detail_reg-select" name="region" id="region">
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                        <option value="">
+                                            Angren shahar
+                                        </option>
+                                    </select>
+                                </form>
+
+                                <ul class="detail_reg-list">
+                                    <li class="detail_reg-item">
+                                        <img src="./assets/img/bustonlik-hokimi-300x300.jpg" alt="">
+                                    </li>
+                                    <li class="detail_reg-item info">
+                                        <h1 class="detail_reg-mayor_fullname">
+                                            XUDOYBERDIEV FURQAT ABDUSALOMOVICH
+                                        </h1>
+                                        <p class="detail_reg-info">
+                                            <b>MANZIL:</b>
+                                            111000, Zafar shaharchasi, Mustaqillik ko'chasi 1 uy
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>TELEFON:</b>
+                                            0 370-93-51-350
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>FAKS:</b>
+                                            <a href="tel:+ 998 78 150 93-70">
+                                                + 998 78 150 93-70
+                                            </a>
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>E-MAIL:</b>
+                                            <a href="#">bekobod.t@umail.uz</a>
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>VEB-SAYT: </b>
+                                            <a href="www.bekobod-tum.uz">
+                                                www.bekobod-tum.uz
+                                            </a>
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>E-XAT: </b>
+                                            <a href="#">
+                                                bekobod.t@exat.uz
+                                            </a>
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <b>QABUL KUNLARI: </b>
+                                            Juma 09:00 dan 14:00 gacha
+                                        </p>
+                                        <p class="detail_reg-info">
+                                            <a
+                                                href="https://bostonliq.toshvil.uz/upload/medialibrary/8b3/8b35924e53c139329f995889cc2eba96.pdf">
+                                                Bekobod tumani hokimligining Nizomi
+                                            </a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="detail_reg-img_wrapper">
+                                    <img class="detail_reg-img" src="./assets/img/0b7db858a4d00bb853dae96979cba9d8.jpg"
+                                        alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -317,10 +445,20 @@
         TOSHKENT VILOYATI HOKIMLIGI © 2009-2023
     </p>
     <script src="./assets/lib/js/smooth-scroll.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script src="./assets/js/time.js"></script>
+    <script src="./assets/lib/js/sticky.js"></script>
     <script src="./assets/js/site_map.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/time.js"></script>
+
+    <script type="text/javascript">
+        var a = new StickySidebar('#sidebar', {
+            topSpacing: 50,
+            bottomSpacing: -20,
+            containerSelector: '.container',
+            innerWrapperSelector: '.sidebar__inner'
+        });
+    </script>
+
     <script>
         AOS.init();
     </script>

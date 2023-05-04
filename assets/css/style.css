@@ -230,7 +230,7 @@
     font-size: var(--size-text);
     box-shadow: 0px 2px 20px #00000020;
     background: var(--color-white);
-    color: var(--color-dark);
+    color: var(--color-primary);
     border: none;
     cursor: pointer;
     border-radius: 6px;
@@ -595,9 +595,9 @@
 }
 
 .news_link a {
-    font-family: 'Roboto B';
+    font-family: 'Roboto M';
     font-weight: normal;
-    font-size: var(--size-text-small);
+    font-size: var(--size-text);
     color: var(--color-dark);
 }
 
@@ -724,7 +724,7 @@ footer {
     transform: translateY(-50%);
 }
 
-.site_map-heading {
+.detail-heading {
     margin-top: 30px;
     font-size: var(--size-heading-small);
     font-family: 'Zona B';
@@ -738,11 +738,15 @@ footer {
 }
 
 .nav_sidebar {
-    width: 30%;
+    width: 25%;
 }
 
 .cat_list {
-    width: 65%;
+    width: 70%;
+}
+
+.detail_reg {
+    width: 70%;
 }
 
 .cat_item {
@@ -882,4 +886,69 @@ footer {
 .link a,
 .link i {
     font-size: var(--size-text-small);
+}
+
+.detail_reg-select {
+    width: 70%;
+    margin: 30px 0;
+    padding: 6px 12px;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    color: var(--color-primary);
+}
+
+.detail_reg-list {
+    display: flex;
+    align-items: start;
+}
+
+.detail_reg-item.info {
+    margin-left: 20px;
+}
+
+.detail_reg-mayor_fullname {
+    font-size: var(--size-text-large);
+    font-family: 'Roboto B';
+    font-weight: normal;
+    color: var(--color-primary);
+}
+
+.detail_reg-info {
+    margin: 10px 0;
+}
+
+.detail_reg-info b {
+    font-family: 'Roboto B';
+    font-size: var(--size-text);
+    color: var(--color-dark);
+}
+
+.detail_reg-info {
+    font-size: var(--size-text);
+    color: var(--color-dark);
+}
+
+.detail_reg-info a {
+    color: var(--color-primary);
+}
+
+.detail_reg-info a:hover {
+    text-decoration: underline;
+}
+
+.detail_reg-item img {
+    border-radius: 10px;
+    box-shadow: 0 2px 20px #00000020;
+}
+
+.detail_reg-img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.detail_reg-img_wrapper img {
+    width: 70%;
 }
