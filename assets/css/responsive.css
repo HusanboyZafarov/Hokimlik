@@ -28,6 +28,10 @@
         --size-heading-large: 38px;
         --size-heading-small: 28px;
     }
+
+    .main-hero_action_post {
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
