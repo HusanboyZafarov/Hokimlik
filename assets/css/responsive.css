@@ -83,6 +83,17 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .news_list {
+        flex-wrap: wrap;
+    }
+
+    .news_item {
+        width: 30%;
+        margin-top: 5%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     :root {
         --size-text: 18px;
@@ -117,10 +128,6 @@
     .news_item {
         width: 30%;
         margin-top: 5%;
-    }
-
-    .news_item:nth-child(1) {
-        margin-top: 0;
     }
 
     .nav_sidebar {
