@@ -199,6 +199,10 @@
         left: 0;
         top: 0;
     }
+
+    .main-hero_numbers_item {
+        padding: 12px;
+    }
 }
 
 @media screen and (max-width: 600px) {
