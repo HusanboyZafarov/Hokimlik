@@ -160,6 +160,34 @@
         margin-top: 5%;
         margin-left: 0;
     }
+
+    .number_container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-hero_numbers_list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center !important;
+        border-radius: 0;
+    }
+
+    .main-hero_numbers_item.left {
+        text-align: center;
+    }
+
+    .main-hero_numbers_item.right::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        background: var(--color-white);
+        height: 1px;
+        left: 0;
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
