@@ -18,7 +18,7 @@ header_navigation_item.forEach((element) => {
             inner_el.style.display = "flex"
             inner_el.style.maxHeight = inner_el.scrollHeight + "px"
             inner_el_first.classList.add("active")
-        }, 400)
+        }, 200)
     })
 
     element.addEventListener("mouseleave", () => {
@@ -47,7 +47,7 @@ hero_action_item.forEach((element) => {
             inner_el.style.display = "flex"
             inner_el.style.maxHeight = inner_el.scrollHeight + "px"
             inner_el_first.classList.add("active")
-        }, 400)
+        }, 200)
     })
 
     element.addEventListener("mouseleave", () => {
