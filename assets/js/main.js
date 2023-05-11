@@ -32,36 +32,30 @@ header_navigation_item.forEach((element) => {
 })
 
 hero_action_item.forEach((element) => {
-    element.addEventListener("mouseenter", () => {
+    element.addEventListener("click", () => {
         inner_el = element.lastElementChild
         inner_el_first = element.firstElementChild
         let hero_action_posts = document.querySelectorAll(".main-hero_action_posts")
         hero_action_posts.forEach((element) => {
             element.style.maxHeight = '0px'
         });
-        let hero_action_item = document.querySelectorAll(".main-hero_action_item span")
-        hero_action_item.forEach(element => {
-            element.classList.remove("active")
-        });
-        setTimeout(() => {
-            inner_el.style.display = "flex"
-            inner_el.style.maxHeight = inner_el.scrollHeight + "px"
-            inner_el_first.classList.add("active")
-        }, 200)
-    })
-
-    element.addEventListener("mouseleave", () => {
-        inner_el = element.lastElementChild
-        inner_el_first = element.firstElementChild
-
-        let hero_action_posts = document.querySelectorAll(".main-hero_action_posts")
-        inner_el_first = element.firstElementChild
         if (inner_el.getBoundingClientRect().height) {
             inner_el.style.maxHeight = `0px`
             let hero_action_item = document.querySelectorAll(".main-hero_action_item span")
             hero_action_item.forEach(element => {
                 element.classList.remove("active")
             });
+        }
+        else {
+            let hero_action_item = document.querySelectorAll(".main-hero_action_item span")
+            hero_action_item.forEach(element => {
+                element.classList.remove("active")
+            });
+            setTimeout(() => {
+                inner_el.style.display = "flex"
+                inner_el.style.maxHeight = inner_el.scrollHeight + "px"
+                inner_el_first.classList.add("active")
+            }, 400)
         }
     })
 });

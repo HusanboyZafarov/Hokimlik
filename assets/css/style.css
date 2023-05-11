@@ -402,7 +402,7 @@
     left: -80px;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--color-primary);
+    background: var(--color-red);
 }
 
 .swiper,
@@ -653,11 +653,12 @@
 footer {
     margin-top: 5%;
     padding: 55px 40px;
-    background: var(--color-primary);
+    background: var(--color-dark-gray);
 }
 
 .footer_text {
     color: var(--color-white);
+    font-size: var(--size-text-small);
 }
 
 .footer_map_link {
@@ -678,9 +679,7 @@ footer {
 }
 
 .footer_title {
-    padding: 15px 20px;
-    text-align: center;
-    background: var(--color-dark);
+    margin-bottom: 20px;
 }
 
 .footer_list {
